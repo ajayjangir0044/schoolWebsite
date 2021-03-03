@@ -1,0 +1,302 @@
+@font-face {
+    font-family: gilroySemiBold;
+    src: url('/assets/fonts/Gilroy-Semibold.ttf');
+  }
+@font-face {
+    font-family: gilroyRegular;
+    src: url('/assets/fonts/Gilroy-Regular.ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroySemiBold;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#background,#bg,#overlay{
+  height: 100%;
+  width: 100%;
+  
+}
+#bg{
+  background-image:url(/assets/Images/parallax-1.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+#overlay{
+  background-color:black;
+  opacity: .51;
+}
+#mainContent{
+  width: 100%;
+  position: relative;
+}
+
+#nav,#logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+a{
+  text-decoration: none;
+}
+#main{
+  width: 100%;
+  height:100%; 
+  position: absolute;
+  top: 0;
+}
+#nav a{
+  margin-right: 30px;
+}
+#nav i{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+#main a,p,i{color:#fff;
+  font-family: gilroyRegular;
+  opacity: 1;
+  
+}
+#main{
+  padding: 30px 40px;
+}
+#main h1{
+  color: #fff;
+}
+
+#mainContent{
+  position: absolute;
+  top: 40%
+}
+#mainLeft p{
+  width: 50%;
+  line-height: 1.4;
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+#mainLeft a{
+  padding: 10px 33px;
+  background-color: white;
+  border-radius: 33px;
+}
+#mainLeft h1{
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+#mainLeft p{
+  margin-bottom: 40px;
+  text-align: left;
+}
+#mainLeft a{
+  color: black;
+}
+#main{
+  overflow: hidden !important;
+}
+#main img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#grid1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+.grid{
+  height: 286px;
+  width: 300px;
+  border-radius:8px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  padding: 0 6px;
+  /* background-color: rgb(173, 253, 227); */
+  background-color: #E2FBF8;
+  
+}
+.grid p{
+  text-align: center;
+  color: gray;
+  font-size: .8rem;
+  line-height: 1.4
+}
+.grid p,h3,img{
+  margin: 4px 0;
+}
+.grid img{
+  width: 20%;
+}
+#about{
+  background-image: url(http://www.nicdarkthemes.com/themes/children/wp/demo/wp-content/uploads/2018/09/parallax-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60%;
+  position: relative;
+  z-index: -1;
+}
+#aboutBg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#about p{
+  line-height: 1.6;
+}
+#about h1{
+  font-size: 3.2rem;
+}
+#about h1,p{
+  text-align: center;
+}
+#about {
+  color: #fff;
+}
+#links{
+  margin-top: 10px;
+}
+#courseGrid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#links i{
+  margin-right: 10px;
+}
+#overlay2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.512);
+}
+#video{
+  width: 1000px;
+  height: 450px;
+  background-image: url(/assets/Images/large_img.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+#courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#video{
+  position: relative;
+  
+}
+#courses h1{
+  font-size: 3.1rem;
+  margin: 30px 0;
+}
+#video >i{
+  position: absolute;
+  color: #fff;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 3.3rem;
+  z-index: 2;
+}
+#event p{
+  text-align: left;
+  color:#000;
+}
+#event{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #E2FBF8;
+  padding: 0 50px;
+}
+#event h1{
+  color: #56225e;
+}
+#event>div a{
+  background-color: #fff;
+  padding: 18px 33px;
+  border-radius:55px
+}
+#event>div p{
+  margin: 22px 0;
+  margin-bottom: 47px;
+}
+#event div:nth-child(2) div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+#event img{
+  width: 60%;
+}
+#teacher h1{
+  text-align: center;
+  font-size:2.5rem;
+  margin: 30px 0;
+}
+h1{
+  
+  font-family:gilroySemiBold;
+}
+#copyright p{
+  text-align: center;
+  color:#000;
+  margin-bottom: 20px;
+}
+#copyright{
+  padding: 20px 0;
+}
+#teacher>div{
+  padding: 0 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+
+}
+#teacher{
+  }
+.teacherGrid{
+  height: 300px;
+  width: 300px;background-image:url(https://images.unsplash.com/photo-1611178204388-1deef70ec66a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.teacherGrid:nth-child(2){
+  background-image: url(https://images.unsplash.com/photo-1611771707777-b18858881e77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+}
+.teacherGrid:nth-child(3){
+background-image: url(https://images.unsplash.com/photo-1544717305-2782549b5136?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+}
+@media (max-width: 880px){
+
+}
