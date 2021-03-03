@@ -142,7 +142,7 @@ body::-webkit-scrollbar {
   width: 20%;
 }
 #about{
-  background-image: url(http://www.nicdarkthemes.com/themes/children/wp/demo/wp-content/uploads/2018/09/parallax-3.jpg);
+  background-image: url(/assets/Images/aboutbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,7 +162,8 @@ body::-webkit-scrollbar {
   transform: translate(-50%,-50%);
 }
 #about p{
-  line-height: 1.6;
+  line-height: 1.7;
+  margin: 10px 0;
 }
 #about h1{
   font-size: 3.2rem;
